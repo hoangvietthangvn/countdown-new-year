@@ -1,0 +1,28 @@
+html {
+  background: url(../assets/images/bg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.new-year-clock {
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  position: fixed; /* or absolute */
+  top: 30%;
+  left: 50%;
+  transform: translate(-25%, -50%);
+}
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+#footer a {
+  text-decoration: none;
+}
